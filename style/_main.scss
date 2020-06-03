@@ -1,0 +1,56 @@
+h2 {
+    color: $secondary-color;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+p {
+    color: $primary-color;
+    font-size: 16px;
+}
+
+.btn {
+    margin: 20px auto;
+    width: 80px;
+    padding: 10px;
+    color: $bg;
+    background: linear-gradient(109deg, $primary-gradient 11%, $secondary-gradient 91%);
+    border-radius: 5px;
+    border: 2px solid rgba(255, 255, 255, 0);
+
+    &:hover {
+        border: 2px solid $primary-gradient;
+        color: #000;
+        background: none;
+    }
+}
+
+main {
+    padding-top: 50px;
+    .article-container {
+        padding: 40px 10px;
+
+        .left-article {
+            float: left;
+            width: 50%;
+        }
+
+        .right-article {
+            display: inline-block;
+            width: 50%;
+        }
+    }
+
+    .contact {
+        form {
+            border: 2px solid $primary-gradient;
+            padding: 10px;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+
+    }
+}
